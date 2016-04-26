@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewGTKProject", "NewGTKProject\NewGTKProject.csproj", "{E4983BCC-540F-4113-9755-472C4C36A65B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpcX", "NewGTKProject\OpcX.csproj", "{E4983BCC-540F-4113-9755-472C4C36A65B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,7 +15,6 @@ Global
 		{E4983BCC-540F-4113-9755-472C4C36A65B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = NewGTKProject\NewGTKProject.csproj
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = None
@@ -151,5 +150,6 @@ Global
 		$25.NamingStyle = PascalCase
 		$25.IncludeInstanceMembers = True
 		$25.IncludeStaticEntities = True
+		StartupItem = NewGTKProject\NewGTKProject.csproj
 	EndGlobalSection
 EndGlobal
