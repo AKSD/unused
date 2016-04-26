@@ -1,0 +1,5 @@
+C:\Users\Adam\Desktop\OPC Server X\NewGTKProject\bin\Debug\NewGTKProject.exe
+C:\Users\Adam\Desktop\OPC Server X\NewGTKProject\bin\Debug\NewGTKProject.pdb
+C:\Users\Adam\Desktop\OPC Server X\NewGTKProject\obj\x86\Debug\NewGTKProject.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\OPC Server X\NewGTKProject\obj\x86\Debug\NewGTKProject.exe
+C:\Users\Adam\Desktop\OPC Server X\NewGTKProject\obj\x86\Debug\NewGTKProject.pdb

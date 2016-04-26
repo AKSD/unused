@@ -1,7 +1,7 @@
 using System;
 using Gtk;
 
-namespace NewGTKProject
+namespace OpcX
 {
 	/// <summary>
 	/// Main class.

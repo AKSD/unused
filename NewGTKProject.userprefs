@@ -1,8 +1,9 @@
-﻿<Properties>
+﻿<Properties StartupItem="NewGTKProject\OpcX.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NewGTKProject/MainWindow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NewGTKProject\MainWindow.cs">
     <Files>
-      <File FileName="NewGTKProject/MainWindow.cs" Line="31" Column="5" />
+      <File FileName="NewGTKProject\MainWindow.cs" Line="32" Column="9" />
+      <File FileName="c:\Users\Adam\Desktop\OPC Server X\NewGTKProject\Program.cs" Line="2" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

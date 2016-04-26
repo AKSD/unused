@@ -7,9 +7,8 @@ namespace OpcX
     /// </summary>
     public interface INode
     {
-        int GetType();
-
-        int GetDirection();
+        int GetNodeType();
+        bool IsReady();
     }
 }
 

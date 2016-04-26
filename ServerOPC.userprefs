@@ -1,0 +1,25 @@
+﻿<Properties StartupItem="NewGTKProject\OpcX.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NewGTKProject\Models\OpcServer.cs">
+    <Files>
+      <File FileName="c:\Users\Adam\Desktop\OPC Server X\NewGTKProject\Program.cs" Line="12" Column="26" />
+      <File FileName="NewGTKProject\Helpers\OpcHelper.cs" Line="10" Column="9" />
+      <File FileName="NewGTKProject\Models\OpcConnection.cs" Line="18" Column="17" />
+      <File FileName="NewGTKProject\Models\OpcServer.cs" Line="10" Column="9" />
+      <File FileName="NewGTKProject\Abstract\INode.cs" Line="13" Column="2" />
+      <File FileName="NewGTKProject\Models\NodeDB.cs" Line="8" Column="31" />
+      <File FileName="NewGTKProject\Models\NodePLC.cs" Line="11" Column="22" />
+      <File FileName="NewGTKProject\Helpers\EnumHelper.cs" Line="14" Column="18" />
+      <File FileName="NewGTKProject\Helpers\Constants.cs" Line="17" Column="1" />
+      <File FileName="NewGTKProject\Abstract\Node.cs" Line="21" Column="20" />
+      <File FileName="NewGTKProject\Helpers\ModbusTCPHelper.cs" Line="8" Column="9" />
+      <File FileName="NewGTKProject\Helpers\MySQLHelper.cs" Line="2" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/pi/NewGTKProject/NewGTKProject/MainWindow.cs" line="44" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

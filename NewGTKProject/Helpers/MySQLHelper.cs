@@ -2,7 +2,7 @@
 
 namespace OpcX
 {
-    public class MySQLHelper
+    public static class MySQLHelper
     {
         public MySQLHelper()
         {

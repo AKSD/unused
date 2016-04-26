@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace NewGTKProject
+namespace OpcX
 {
-    public class OpcHelper
+    /// <summary>
+    /// Opc helper.
+    /// </summary>
+    public static class OpcHelper
     {
-        public OpcHelper()
-        {
-        }
+        
     }
 }
 

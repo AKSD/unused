@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{E4983BCC-540F-4113-9755-472C4C36A65B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>NewGTKProject</RootNamespace>
+    <RootNamespace>OpcX</RootNamespace>
     <AssemblyName>NewGTKProject</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
@@ -59,6 +59,7 @@
     <Reference Include="EasyModbus">
       <HintPath>bin\Debug\EasyModbus.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Build.Framework" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="gtk-gui\gui.stetic">
@@ -67,11 +68,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="gtk-gui\generated.cs" />
-    <Compile Include="MainWindow.cs" />
     <Compile Include="gtk-gui\MainWindow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="OpcConnection.cs" />
+    <Compile Include="Models\OpcConnection.cs" />
+    <Compile Include="Models\OpcServer.cs" />
+    <Compile Include="Helpers\OpcHelper.cs" />
+    <Compile Include="Windows\MainWindow.cs" />
+    <Compile Include="Models\NodeDB.cs" />
+    <Compile Include="Models\NodePLC.cs" />
+    <Compile Include="Helpers\EnumHelper.cs" />
+    <Compile Include="Helpers\Constants.cs" />
+    <Compile Include="Abstract\INode.cs" />
+    <Compile Include="Abstract\Node.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -84,4 +93,10 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Windows\" />
+    <Folder Include="Abstract\" />
+  </ItemGroup>
 </Project>

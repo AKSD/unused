@@ -1,12 +1,11 @@
-﻿using System;
+﻿using EasyModbus;
+using System;
 
 namespace OpcX
 {
-    public static class PLCHelper
+    public static class ModbusTCPHelper
     {
-        public PLCHelper()
-        {
-        }
+        
     }
 }
 
